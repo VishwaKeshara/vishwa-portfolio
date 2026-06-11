@@ -1,8 +1,8 @@
 export default function Contact() {
   const links = [
-    { label: 'Copy Email', href: 'mailto:vishwa@example.com' },
-    { label: 'LinkedIn', href: '#' },
-    { label: 'GitHub', href: '#' },
+    { label: 'Copy Email', href: 'mailto:vishk1027@gmail.com' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/vishwa-keshara-gamlath' },
+    { label: 'GitHub', href: 'https://github.com/VishwaKeshara' },
   ];
 
   return (
@@ -12,6 +12,8 @@ export default function Contact() {
           <a
             key={l.label}
             href={l.href}
+            target={l.label !== 'Copy Email' ? '_blank' : undefined}
+            rel={l.label !== 'Copy Email' ? 'noopener noreferrer' : undefined}
             className="px-6 py-3 border border-cyan-400 text-cyan-400 rounded hover:bg-cyan-400/10 transition-colors text-sm font-semibold"
           >
             {l.label}

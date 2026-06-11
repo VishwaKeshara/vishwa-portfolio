@@ -1,37 +1,45 @@
 export const projects = [
   {
-    title: 'Cloud Infrastructure Automation',
+    title: 'Hotel Booker – Online Hotel Reservation System',
     description:
-      'Automated AWS EC2 + S3 provisioning and configuration management using Terraform and Ansible for repeatable infrastructure deployments.',
-    tags: ['Terraform', 'Ansible', 'AWS'],
-    github: '#',
+      'A web-based hotel reservation system enabling users to browse hotels, check room availability, and book online. Includes user authentication, booking management, and an admin dashboard for managing hotels and reservations.',
+    tags: ['React', 'Node.js', 'MongoDB'],
+    github: 'https://github.com/VishwaKeshara',
     demo: '#',
   },
   {
-    title: 'Containerized Spring Boot App',
+    title: 'Veterinary Management System',
     description:
-      'Containerized a Java Spring Boot REST API with Docker, including multi-stage builds and Docker Compose for local orchestration.',
-    tags: ['Docker', 'Spring Boot', 'Java'],
-    github: '#',
+      'A comprehensive system for managing veterinary clinic operations, including pet records, owner details, appointments, and treatment history, improving data organization and reducing manual record-keeping.',
+    tags: ['Java', 'Spring Boot', 'MySQL'],
+    github: 'https://github.com/VishwaKeshara',
+    demo: '#',
+  },
+  {
+    title: 'SLIIT UniRide – Smart Campus Ride Sharing System',
+    description:
+      'A ride-sharing platform for university students to share transportation within campus and nearby locations, with ride creation, booking, real-time ride matching, and user management.',
+    tags: ['React', 'Spring Boot', 'REST API'],
+    github: 'https://github.com/VishwaKeshara',
     demo: '#',
   },
 ];
 
 export const devopsProjects = [
   {
-    title: 'CI/CD Pipeline (GitHub Actions)',
+    title: 'SLIIT Nexus – Smart Campus System',
     description:
-      'Built a full pipeline that runs tests, builds artifacts, and deploys automatically on every push to main, reducing manual deploy steps to zero.',
-    tags: ['GitHub Actions', 'CI/CD', 'YAML'],
-    github: '#',
+      'A smart campus platform integrating academic and campus services into one system, including announcements, event management, academic resources, and communication tools to support digital transformation.',
+    tags: ['React', 'Node.js', 'MongoDB'],
+    github: 'https://github.com/VishwaKeshara',
     demo: '#',
   },
   {
-    title: 'Vue.js Admin Dashboard',
+    title: 'Photography Management System',
     description:
-      'A responsive admin dashboard with Vue.js, featuring live charts and real-time data views for monitoring system status.',
-    tags: ['Vue.js', 'Charts', 'Dashboard'],
-    github: '#',
+      'A web-based system to manage photography services and client bookings. Users can view packages, book sessions, and submit inquiries, while the admin panel handles bookings, schedules, and client management.',
+    tags: ['HTML', 'CSS', 'PHP'],
+    github: 'https://github.com/VishwaKeshara',
     demo: '#',
   },
 ];

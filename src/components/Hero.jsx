@@ -1,3 +1,5 @@
+import profilePic from '../assets/profile.jpg';
+
 const terminalLines = [
   '$ whoami',
   'Vishwa Keshara',
@@ -14,6 +16,11 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 px-6 items-center">
         {/* Left: Intro */}
         <div>
+          <img
+            src={profilePic}
+            alt="Vishwa Keshara"
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-400/30 mb-6"
+          />
           <p className="text-cyan-400 text-sm mb-2">Hi, my name is</p>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">
             Vishwa Keshara.
@@ -33,6 +40,7 @@ export default function Hero() {
             >
               View My Work
             </a>
+
             <a
               href="#contact"
               className="px-6 py-3 border border-cyan-400 text-cyan-400 font-semibold rounded hover:bg-cyan-400/10 transition-colors"
