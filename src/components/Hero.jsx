@@ -21,16 +21,16 @@ export default function Hero() {
             alt="Vishwa Keshara"
             className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-400/30 mb-6"
           />
-          <p className="text-cyan-400 text-sm mb-2">Hi, my name is</p>
+          <p className="text-cyan-400 text-sm mb-2">Hi, I'm</p>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">
             Vishwa Keshara.
           </h1>
           <p className="text-gray-400 mb-6">
-            Aspiring Cloud Engineer & IT Infrastructure
+            DevOps & Cloud Engineering enthusiast
           </p>
           <p className="text-gray-500 text-sm leading-relaxed mb-8 max-w-md">
-            IT undergraduate passionate about cloud infrastructure
-            and DevOps. Seeking internship opportunities.
+            SLIIT IT undergraduate with a passion for cloud infrastructure,
+            automation, and modern deployment workflows.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-6">
