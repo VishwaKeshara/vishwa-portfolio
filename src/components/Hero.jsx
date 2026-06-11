@@ -19,13 +19,19 @@ export default function Hero() {
 
       <div className="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-12 px-6 items-center">
         <div className="space-y-6">
+          <img
+            src={profilePic}
+            alt="Vishwa Keshara"
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-400/30 mb-2"
+          />
+
           <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/5 px-4 py-2 text-xs uppercase tracking-[0.25em] text-cyan-300">
             SLIIT IT Undergraduate
           </div>
 
           <div>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white">Hi, I'm Vishwa Keshara.</h1>
-            <p className="mt-3 text-cyan-300 font-medium">DevOps & Cloud Engineering enthusiast</p>
+            <p className="mt-4 text-cyan-300 font-medium">DevOps & Cloud Engineering enthusiast</p>
           </div>
 
           <p className="text-gray-300 max-w-xl leading-8">
@@ -84,11 +90,6 @@ export default function Hero() {
               </p>
             </div>
           </div>
-          <img
-            src={profilePic}
-            alt="Vishwa Keshara"
-            className="absolute -right-10 top-10 w-28 h-28 rounded-full border-4 border-cyan-400/40 object-cover shadow-xl"
-          />
         </div>
       </div>
     </section>
