@@ -1,4 +1,5 @@
-﻿import profilePic from '../assets/profile.png';
+﻿import { useEffect, useState } from 'react';
+import profilePic from '../assets/profile.png';
 
 const terminalLines = [
   '$ whoami',
@@ -11,6 +12,32 @@ const terminalLines = [
 ];
 
 export default function Hero() {
+  const [typedLines, setTypedLines] = useState(['']);
+  const [activeLine, setActiveLine] = useState(0);
+  const [activeChar, setActiveChar] = useState(0);
+
+  useEffect(() => {
+    if (activeLine >= terminalLines.length) return;
+
+    const currentLine = terminalLines[activeLine];
+    const timeout = setTimeout(() => {
+      if (activeChar < currentLine.length) {
+        setTypedLines((prev) => {
+          const next = [...prev];
+          next[activeLine] = currentLine.slice(0, activeChar + 1);
+          return next;
+        });
+        setActiveChar((prev) => prev + 1);
+      } else if (activeLine + 1 < terminalLines.length) {
+        setTypedLines((prev) => [...prev, '']);
+        setActiveLine((prev) => prev + 1);
+        setActiveChar(0);
+      }
+    }, activeChar < currentLine.length ? 40 : 450);
+
+    return () => clearTimeout(timeout);
+  }, [activeChar, activeLine]);
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center pt-28 overflow-hidden bg-[#050b16]">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.14),_transparent_24%),radial-gradient(circle_at_85%_20%,_rgba(14,165,233,0.1),_transparent_18%)]" />
@@ -73,7 +100,7 @@ export default function Hero() {
               <span className="ml-3 text-xs text-gray-500">vishwa@portfolio: ~</span>
             </div>
             <div className="p-5 text-sm space-y-2 font-mono">
-              {terminalLines.map((line, i) => (
+              {typedLines.map((line, i) => (
                 <p
                   key={i}
                   className={
@@ -85,11 +112,11 @@ export default function Hero() {
                   }
                 >
                   {line}
+                  {i === typedLines.length - 1 && activeLine < terminalLines.length && (
+                    <span className="animate-pulse">_</span>
+                  )}
                 </p>
               ))}
-              <p className="text-cyan-400">
-                $ <span className="animate-pulse">_</span>
-              </p>
             </div>
           </div>
         </div>
