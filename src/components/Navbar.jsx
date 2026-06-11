@@ -4,7 +4,13 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#0a0e14]/95 backdrop-blur-xl border-b border-cyan-900/40">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-        <span className="text-cyan-400 font-bold tracking-[0.35em]">VK.</span>
+        <a
+          href="#hero"
+          className="!text-cyan-400 text-cyan-400 font-bold tracking-[0.35em] hover:text-cyan-300"
+          aria-label="Go to top"
+        >
+          VK
+        </a>
 
         <ul className="hidden md:flex gap-8 text-sm text-gray-400">
           {links.map((l) => (
