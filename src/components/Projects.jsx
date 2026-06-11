@@ -1,4 +1,7 @@
-﻿import { projects } from '../data/projects';
+﻿import { FaGithub } from 'react-icons/fa';
+import { FiExternalLink } from 'react-icons/fi';
+import { HiOutlineCloud } from 'react-icons/hi';
+import { projects } from '../data/projects';
 
 export default function Projects() {
   return (
@@ -23,25 +26,25 @@ export default function Projects() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-transparent opacity-0 transition group-hover:opacity-100" />
               <div className="relative flex items-start justify-between mb-4">
-                <span className="text-3xl">☁️</span>
+                <HiOutlineCloud className="text-cyan-400" size={28} />
                 <div className="flex gap-3 text-sm text-gray-400">
                   <a
                     href={p.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
-                    className="hover:text-cyan-400 transition-colors"
+                    className="inline-flex items-center gap-1 hover:text-cyan-400 transition-colors"
                   >
-                    GitHub
+                    <FaGithub /> GitHub
                   </a>
                   <a
                     href={p.demo || p.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Live demo"
-                    className="hover:text-cyan-400 transition-colors"
+                    className="inline-flex items-center gap-1 hover:text-cyan-400 transition-colors"
                   >
-                    Demo
+                    <FiExternalLink /> Demo
                   </a>
                 </div>
               </div>
