@@ -1,16 +1,16 @@
 const items = [
   {
     role: 'IT Infrastructure Intern',
-    org: 'Tech Company Name',
-    period: '2024',
+    org: 'MAS CAPITAL',
+    period: '2026',
     description:
       'Managing cloud environments, automating tasks, supporting DevOps pipelines for production systems.',
     tags: ['AWS', 'Linux'],
   },
   {
     role: 'IT Undergraduate',
-    org: 'University Name',
-    period: '2021 - Present',
+    org: 'SLIIT – Sri Lanka Institute of Information Technology',
+    period: '2023 - Present',
     description:
       'Studying Information Technology with focus on cloud computing, system admin, and software engineering.',
     tags: ['Cloud Computing', 'Networking'],
