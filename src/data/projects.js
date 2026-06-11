@@ -23,6 +23,14 @@ export const projects = [
     github: 'https://github.com/VishwaKeshara/SLIIT_UNIRIDE.git',
     demo: '#',
   },
+  {
+    title: 'Health Checker Mobile Application',
+    description:
+      'Launched an Android health tracking app with Firebase real-time database, supporting 5+ health metrics and 3+ configurable reminders.',
+    tags: ['Kotlin', 'Firebase'],
+    github: '#',
+    demo: '#',
+  },
 ];
 
 export const devopsProjects = [
