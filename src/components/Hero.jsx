@@ -39,10 +39,10 @@ export default function Hero() {
   }, [activeChar, activeLine]);
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-28 overflow-hidden bg-[#050b16]">
+    <section id="hero" className="relative min-h-[80vh] md:min-h-screen flex items-center pt-28 overflow-hidden bg-[#050b16]">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.14),_transparent_24%),radial-gradient(circle_at_85%_20%,_rgba(14,165,233,0.1),_transparent_18%)]" />
-      <div className="absolute right-[-140px] top-24 w-72 h-72 rounded-full bg-cyan-400/10 blur-3xl" />
-      <div className="absolute left-[-120px] bottom-0 w-72 h-72 rounded-full bg-slate-500/10 blur-3xl" />
+      <div className="hidden md:block absolute right-[-140px] top-24 w-72 h-72 rounded-full bg-cyan-400/10 blur-3xl" />
+      <div className="hidden md:block absolute left-[-120px] bottom-0 w-72 h-72 rounded-full bg-slate-500/10 blur-3xl" />
 
       <div className="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-12 px-6 items-center">
         <div className="space-y-6">
@@ -63,20 +63,20 @@ export default function Hero() {
             </div>
           </div>
 
-          <p className="text-gray-300 max-w-xl leading-8">
+          <p className="text-gray-300 max-w-xl leading-8 text-base md:text-lg">
             SLIIT IT undergraduate with a passion for cloud infrastructure, automation, and modern deployment workflows. I built a hotel booking project using Docker, GitHub Actions, and AWS to automate delivery and improve release reliability.
           </p>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#projects"
-              className="inline-flex items-center justify-center rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/20 transition hover:bg-cyan-300"
+              className="inline-flex w-full sm:w-auto items-center justify-center rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/20 transition hover:bg-cyan-300"
             >
               View My Work
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center rounded-full border border-cyan-400/50 px-6 py-3 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+              className="inline-flex w-full sm:w-auto items-center justify-center rounded-full border border-cyan-400/50 px-6 py-3 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
             >
               Get In Touch
             </a>
