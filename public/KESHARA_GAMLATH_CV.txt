@@ -1,0 +1,55 @@
+KESHARA GAMLATH
+Malabe, Sri Lanka | +94 70 294 3487 | vishk1027@gmail.com
+github.com/VishwaKeshara | linkedin: vishwa-keshara-gamlath
+
+PROFESSIONAL SUMMARY
+Third-year Information Technology undergraduate at SLIIT with hands-on experience in AWS cloud services, Linux administration,
+Infrastructure as Code (Terraform), Kubernetes, CI/CD, and Git. Passionate about building scalable cloud infrastructure, automating
+deployments, and implementing DevOps best practices. Seeking a DevOps, Cloud, or Infrastructure Engineering internship to
+contribute technical skills and grow in cloud automation and platform engineering.
+
+TECHNICAL SKILLS
+Cloud Platforms: Amazon Web Services (EC2, VPC, IAM, S3, EBS, Security Groups, ELB, CloudWatch)
+Infrastructure as Code: Terraform
+Containers & Orchestration: Docker, Kubernetes, Amazon EKS
+CI/CD & Version Control: Git, GitHub, AWS Code Pipeline, AWS Code Deploy
+Operating Systems: Linux, Windows Server
+Scripting & Programming: Bash, Python, Java
+Networking: TCP/IP, DNS, VPC, Subnets, Route Tables, Internet Gateway, NAT Gateway, Security Groups
+Tools: Visual Studio Code, VMware, Postman
+
+PROJECTS
+AWS Infrastructure Automation using Terraform Terraform | AWS | EC2 | VPC | IAM | S3
+TERRAFORM-WITH-AWS
+• Provisioned AWS infrastructure using Infrastructure as Code (Terraform).
+• Automated deployment of EC2 instances and networking resources including VPC, subnets, route tables, Internet Gateway, and Security
+Groups.
+• Implemented reusable Terraform variables and outputs, reducing manual cloud provisioning through automated deployment workflows.
+
+Kubernetes Game 2048 Deployment on Amazon EKS Kubernetes | Amazon EKS | AWS | kubectl
+kubernetes-eks-game2048-deployment
+• Created and configured an Amazon EKS cluster for container orchestration.
+• Deployed a containerized application using Kubernetes Deployments and Services with Load Balancer configuration for external access.
+• Managed Kubernetes resources using kubectl, gaining practical experience with scalable application deployment.
+
+AWS Cloud Cost Optimization using EBS Snapshots AWS EC2 | EBS | Snapshots
+AWS-CloudCostOptimization-with-ebs-snapshot
+• Implemented automated EBS snapshot lifecycle management to optimize cloud storage utilization and reduce costs.
+• Improved disaster recovery readiness through snapshot-based backup strategies within AWS.
+
+Linux Fundamentals for DevOps Linux | Bash | Git
+devops-linux-fundamentals
+• Developed and published beginner-friendly Linux documentation covering file system navigation, permissions, package management,
+process management, networking, and shell utilities.
+• Demonstrated Git version control and technical documentation best practices to help new learners build Linux proficiency for DevOps
+careers.
+
+Linux Fundamentals for DevOps Linux | Bash | Git
+AWS CI/CD
+• Developed and published beginner-friendly Linux documentation covering file system navigation, permissions, package management,
+process management, networking, and shell utilities.
+• Demonstrated Git version control and technical documentation best practices to help new learners build Linux proficiency for DevOps
+careers.
+
+EDUCATION
+BSc (Hons) in Information Technology 2023 - Present

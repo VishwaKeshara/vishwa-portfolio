@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import DevOpsProjects from './components/DevOpsProjects';
 import Certifications from './components/Certifications';
 import About from './components/About';
+import CVSection from './components/CVSection';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
       <DevOpsProjects />
       <Certifications />
       <About />
+      <CVSection />
       <Contact />
       <Footer />
     </div>

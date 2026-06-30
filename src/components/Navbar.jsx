@@ -1,6 +1,6 @@
 ﻿import { useState } from 'react';
 
-const links = ['About', 'Skills', 'Projects', 'DevOps', 'Contact'];
+const links = ['About', 'Skills', 'Projects', 'DevOps', 'Cv', 'Contact'];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         <a
           href="#hero"
-          className="!text-cyan-400 text-cyan-400 font-bold tracking-[0.35em] hover:text-cyan-300"
+          className="text-cyan-400 font-bold tracking-[0.35em] hover:text-cyan-300"
           aria-label="Go to top"
         >
           VK
