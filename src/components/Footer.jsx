@@ -9,7 +9,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="text-cyan-400 hover:underline"
         >
-          Vishwa Keshara
+          Keshara Gamlath
         </a>{' '}
         on GitHub Pages
       </p>

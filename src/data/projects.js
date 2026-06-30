@@ -1,53 +1,45 @@
 export const projects = [
   {
-    title: 'Hotel Booker – Online Hotel Reservation System',
+    title: 'AWS Infrastructure Automation using Terraform',
     description:
-      'A web-based hotel reservation system enabling users to browse hotels, check room availability, and book online. Includes user authentication, booking management, and an admin dashboard for managing hotels and reservations.',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/VishwaKeshara/OnlineHotelReservation.git',
-    demo: '#',
+      'Provisioned AWS infrastructure using Infrastructure as Code with Terraform. Automated EC2 deployment and networking resources including VPC, subnets, route tables, Internet Gateway, and Security Groups with reusable variables and outputs.',
+    tags: ['Terraform', 'AWS', 'EC2', 'VPC', 'IAM', 'S3'],
+    github: 'https://github.com/VishwaKeshara/TERRAFORM-WITH-AWS',
+    demo: 'https://github.com/VishwaKeshara/TERRAFORM-WITH-AWS',
   },
   {
-    title: 'Veterinary Management System',
+    title: 'Kubernetes Game 2048 Deployment on Amazon EKS',
     description:
-      'A comprehensive system for managing veterinary clinic operations, including pet records, owner details, appointments, and treatment history, improving data organization and reducing manual record-keeping.',
-    tags: ['Java', 'Spring Boot', 'MySQL'],
-    github: 'https://github.com/VishwaKeshara/mernpetiq.git',
-    demo: '#',
+      'Created and configured an Amazon EKS cluster for container orchestration, then deployed a containerized app using Kubernetes Deployments and Services with a Load Balancer for external access.',
+    tags: ['Kubernetes', 'Amazon EKS', 'AWS', 'kubectl'],
+    github: 'https://github.com/VishwaKeshara/kubernetes-eks-game2048-deployment',
+    demo: 'https://github.com/VishwaKeshara/kubernetes-eks-game2048-deployment',
   },
   {
-    title: 'SLIIT UniRide – Smart Campus Ride Sharing System',
+    title: 'AWS Cloud Cost Optimization using EBS Snapshots',
     description:
-      'A ride-sharing platform for university students to share transportation within campus and nearby locations, with ride creation, booking, real-time ride matching, and user management.',
-    tags: ['React', 'Spring Boot', 'REST API'],
-    github: 'https://github.com/VishwaKeshara/SLIIT_UNIRIDE.git',
-    demo: '#',
-  },
-  {
-    title: 'Health Checker Mobile Application',
-    description:
-      'Launched an Android health tracking app with Firebase real-time database, supporting 5+ health metrics and 3+ configurable reminders.',
-    tags: ['Kotlin', 'Firebase'],
-    github: '#',
-    demo: '#',
+      'Implemented automated EBS snapshot lifecycle management to optimize storage utilization and reduce costs while improving disaster recovery readiness using snapshot-based backup strategies.',
+    tags: ['AWS', 'EC2', 'EBS', 'Snapshots'],
+    github: 'https://github.com/VishwaKeshara/AWS-CloudCostOptimization-with-ebs-snapshot',
+    demo: 'https://github.com/VishwaKeshara/AWS-CloudCostOptimization-with-ebs-snapshot',
   },
 ];
 
 export const devopsProjects = [
   {
-    title: 'SLIIT Nexus – Smart Campus System',
+    title: 'Linux Fundamentals for DevOps',
     description:
-      'A smart campus platform integrating academic and campus services into one system, including announcements, event management, academic resources, and communication tools to support digital transformation.',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/VishwaKeshara/it3030-paf-2026-smart-campus-WE-3.1-61.git',
-    demo: '#',
+      'Developed and published Linux documentation for file systems, permissions, package management, process management, networking, and shell utilities, with Git-focused workflows for DevOps learners.',
+    tags: ['Linux', 'Bash', 'Git'],
+    github: 'https://github.com/VishwaKeshara/devops-linux-fundamentals',
+    demo: 'https://github.com/VishwaKeshara/devops-linux-fundamentals',
   },
   {
-    title: 'Photography Management System',
+    title: 'AWS CI/CD',
     description:
-      'A web-based system to manage photography services and client bookings. Users can view packages, book sessions, and submit inquiries, while the admin panel handles bookings, schedules, and client management.',
-    tags: ['HTML', 'CSS', 'PHP'],
-    github: 'https://github.com/Alleybo33/Change.git',
-    demo: '#',
+      'Implemented an AWS CI/CD workflow using CodePipeline and CodeDeploy to automate build, deployment, and release processes for cloud-hosted applications.',
+    tags: ['AWS CodePipeline', 'AWS CodeDeploy', 'GitHub', 'CI/CD'],
+    github: 'https://github.com/VishwaKeshara',
+    demo: 'https://github.com/VishwaKeshara',
   },
 ];

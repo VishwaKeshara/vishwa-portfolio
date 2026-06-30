@@ -6,12 +6,12 @@
           <p className="text-cyan-400 text-sm mb-3 uppercase tracking-[0.35em]">About</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">A bit more about me</h2>
           <p className="text-gray-300 leading-8 mb-6">
-            I am a SLIIT IT undergraduate focused on cloud-first architecture, infrastructure automation, and DevOps practices. I enjoy building reliable CI/CD pipelines, containerized applications, and deployment workflows that help teams ship faster and with greater confidence.
+            Third-year Information Technology undergraduate at SLIIT with hands-on experience in AWS cloud services, Linux administration, Infrastructure as Code (Terraform), Kubernetes, CI/CD, and Git. I am focused on cloud automation and platform engineering with practical project experience.
           </p>
           <ul className="space-y-3 text-gray-400">
-            <li>• Experience building end-to-end automation using Docker and GitHub Actions.</li>
-            <li>• Strong interest in AWS cloud services, Kubernetes orchestration, and monitoring.</li>
-            <li>• Skilled at combining development, operations, and quality controls for modern delivery.</li>
+            <li>• Build scalable cloud infrastructure using AWS and Infrastructure as Code.</li>
+            <li>• Deploy and manage containerized workloads with Kubernetes and Amazon EKS.</li>
+            <li>• Implement CI/CD pipelines and Git-based workflows for automated delivery.</li>
           </ul>
         </div>
 
@@ -19,9 +19,9 @@
           <p className="text-cyan-400 text-sm uppercase tracking-[0.35em] mb-4">Skills spotlight</p>
           <div className="grid gap-4">
             {[
-              { label: 'Cloud & DevOps', value: 'AWS, Docker, Kubernetes, CI/CD' },
-              { label: 'Backend', value: 'Spring Boot, Node.js, REST APIs' },
-              { label: 'Frontend', value: 'React, Tailwind CSS, JavaScript' },
+              { label: 'Cloud Platforms', value: 'AWS (EC2, VPC, IAM, S3, EBS, ELB, CloudWatch)' },
+              { label: 'Infrastructure as Code', value: 'Terraform' },
+              { label: 'Containers & CI/CD', value: 'Docker, Kubernetes, Amazon EKS, GitHub, CodePipeline' },
             ].map((item) => (
               <div key={item.label} className="rounded-3xl border border-gray-800 bg-white/5 p-4">
                 <p className="text-sm text-gray-400">{item.label}</p>

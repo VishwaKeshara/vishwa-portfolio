@@ -1,19 +1,11 @@
 const items = [
   {
-    role: 'IT Infrastructure Intern',
-    org: 'MAS CAPITAL',
-    period: '2026',
-    description:
-      'Managing cloud environments, automating tasks, supporting DevOps pipelines for production systems.',
-    tags: ['AWS', 'Linux'],
-  },
-  {
-    role: 'IT Undergraduate',
+    role: 'BSc (Hons) in Information Technology',
     org: 'SLIIT – Sri Lanka Institute of Information Technology',
     period: '2023 - Present',
     description:
-      'Studying Information Technology with focus on cloud computing, system admin, and software engineering.',
-    tags: ['Cloud Computing', 'Networking'],
+      'Third-year undergraduate focused on cloud engineering, DevOps practices, Linux administration, networking, and infrastructure automation.',
+    tags: ['Cloud Engineering', 'DevOps', 'Networking'],
   },
 ];
 
@@ -22,7 +14,7 @@ export default function Certifications() {
     <section id="experience" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl font-bold text-white mb-2">
-          <span className="text-cyan-400">04.</span> Experience & Education
+          <span className="text-cyan-400">04.</span> Education
         </h2>
         <div className="h-px bg-gray-800 mb-12" />
 
